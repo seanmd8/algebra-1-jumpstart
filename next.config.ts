@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    basePath: "algebra-1-jumpstart",
+    basePath: "/algebra-1-jumpstart",
     output: "export",  // <=== enables static exports
 };
 

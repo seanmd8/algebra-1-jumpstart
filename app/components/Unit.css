@@ -17,9 +17,9 @@
 }
 
 .unit-expander{
-    font-size: 25px;
-    width: 40px;
-    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
 }
 
 .unit-title{

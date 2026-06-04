@@ -1,5 +1,7 @@
-export default function Details() {
+import { courseDescription } from "./text/home/courseDescription";
+
+export default function Home() {
   return (
-      <p>Hello World Details</p>
+      <p>{courseDescription}</p>
   );
 }

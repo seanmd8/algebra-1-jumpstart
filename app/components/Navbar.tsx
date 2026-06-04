@@ -1,12 +1,13 @@
 "use client"
 
+import {path} from "../path";
 import "./Navbar.css";
 
 export function Navbar() {
-    const path = ``;
     return (
         <div className="navbar">
-            <NavbarButton link={`${path}`} text={`Details`} />
+            <NavbarButton link={`${path}`} text={`Home`} />
+            <NavbarButton link={`${path}/details`} text={`Details`} />
             <NavbarButton link={`${path}/bio`} text={`Bio`} />
             <NavbarButton link={`${path}/schedule`} text={`Schedule`} />
             {/*<NavbarButton link={`${path}/references`} text={`References`} />*/}

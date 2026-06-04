@@ -3,6 +3,7 @@
 import "./Unit.css";
 import "../globals.css";
 import { useState } from "react";
+import {path} from "../path";
 
 export default function Unit(props: {title: string, date: string, text: string[]}){
     var [expanded, setExpanded] = useState(false);
@@ -12,10 +13,11 @@ export default function Unit(props: {title: string, date: string, text: string[]
     const toggle = () => {
         setExpanded(!expanded);
     }
+    const arrow = expanded ? `${path}/up.png` : `${path}/down.png`;
     return (
         <div className="unit">
             <div className="unit-header" onClick={toggle}>
-                {expanded ? <p className="unit-expander"> ^ </p> : <p className="unit-expander"> v </p>}
+                <img src={arrow} alt="toggle expanded" className="unit-expander"/>
                 <h2 className="unit-title">{props.title}</h2> 
                 <p className="unit-date">{props.date}</p>
             </div>

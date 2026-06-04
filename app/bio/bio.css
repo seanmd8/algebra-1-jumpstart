@@ -1,0 +1,10 @@
+.bio-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.bio-text{
+    width: 700px;
+}

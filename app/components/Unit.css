@@ -1,0 +1,42 @@
+.unit{
+    width: 940px;
+    margin-top: 20px;
+}
+
+.unit-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 4px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.unit-expander{
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+}
+
+.unit-title{
+    font-size: 30px;    
+    font-weight: bold;
+    width: 600px;
+}
+
+.unit-date{
+    font-size: 25px;
+    width: 300px;
+}
+
+.unit-body{
+    border: 4px;
+    border-color: grey;
+    border-style: solid;
+    border-top: none;
+    padding: 10px;
+}

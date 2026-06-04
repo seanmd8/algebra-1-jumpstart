@@ -1,0 +1,18 @@
+.navbar{
+    background-color: darkslategray;
+    padding: 10px;
+}
+
+.navbar-button{
+    border-color: black;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.navbar-button:hover{
+    background-color: slategray;
+    cursor: pointer
+}

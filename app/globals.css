@@ -47,8 +47,14 @@ body {
 }
 
 .home-text{
-    width: 700px;
+    width: 800px;
 }
 .home-text>p{
-    text-indent: 30px;
+    text-indent: 45px;
+}
+
+.link-img{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
 }

@@ -5,7 +5,7 @@ import "./bio.css";
 export default function Bio() {
     return (
         <div className="bio-div">
-            <Portrait src="/Portrait_Placeholder.png" alt="Sean Dunbar"/>
+            <Portrait src="/Sean_Portrait.jpg" alt="Sean Dunbar"/>
             <p className="normal-text bio-text">{bio}</p>
         </div>
     );

@@ -31,3 +31,24 @@ body {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.link-style {
+    border-color: black;    
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+.link-style:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.home-text{
+    width: 700px;
+}
+.home-text>p{
+    text-indent: 30px;
+}

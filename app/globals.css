@@ -23,6 +23,7 @@ body {
     font-size: 32px;
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .link-style {
@@ -50,4 +51,8 @@ body {
     height: 22px;
     width: 22px;
     display: inline-block;
+}
+
+.normal-page {
+    margin-left: 20px;
 }

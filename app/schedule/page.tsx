@@ -7,7 +7,7 @@ import { unit4Date, unit4Text, unit4Title } from "../text/units/unit4";
 
 export default function Schedule() {
   return (
-      <div>
+      <div className="normal-page">
             <h1 className="page-header">Schedule</h1>            
             <Unit title={unit1Title} date={unit1Date} text={unit1Text}/>
             <Unit title={unit2Title} date={unit2Date} text={unit2Text}/>

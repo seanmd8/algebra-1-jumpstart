@@ -8,7 +8,7 @@ export default function Home() {
             <br/>
             <p>{homeText2}</p>
             <br/>
-            <a  className="link-style" href="https://www.seattleschools.org/departments/mathematics/secondary-mathematics/high-school-mathematics/">
+            <a className="link-style" href="https://www.seattleschools.org/departments/mathematics/secondary-mathematics/high-school-mathematics/">
                 SPS High School Mathematics
             </a>
             <a className="link-style" href="https://accessim.org/9-12-aga/algebra-1?a=student">

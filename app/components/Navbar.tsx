@@ -16,7 +16,11 @@ export function Navbar() {
 }
 
 function NavbarButton(props: {link: string, text: string}){
-    return <button className="navbar-button">
-        <a href={props.link}>{props.text}</a>
-    </button>
+    return (
+        <a href={props.link}>
+            <button className="navbar-button">
+                {props.text}
+            </button>
+        </a>
+    )
 }

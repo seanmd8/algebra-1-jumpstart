@@ -22,7 +22,7 @@ body {
     margin: 10px;
 }
 
-.normal-text {
+.normal-text, .normal-text-container {
     font-size: 22px;
 }
 

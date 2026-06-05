@@ -9,7 +9,9 @@ export default function Details() {
             <p>Price: $200 total for all 4 sessions, due before the first session</p>
             <p>Class size: Max of 6</p>
             <br/>
-            <p>To sign up, or if you have any questions, email seanguy306@gmail.com</p>
+            <p>To sign up, or if you have any questions, contact me at:</p>
+            <p>Email: seanguy306@gmail.com</p>
+            <p>Phone: (206) 267-8393</p>
         </div>
     );
 }
